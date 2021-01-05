@@ -1,7 +1,6 @@
 document.getElementById('checknumber').addEventListener('click', myfunction)
 function myfunction () {
-  let number
-  number = document.getElementById('usernumber').value
+  let number = document.getElementById('usernumber').value
 
   if (number > 0) {
     alert('Your number is positive')
