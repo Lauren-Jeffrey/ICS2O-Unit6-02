@@ -1,6 +1,6 @@
 document.getElementById('checknumber').addEventListener('click', myfunction)
 function myfunction () {
-  const number
+  let number
   number = document.getElementById('usernumber').value
 
   if (number > 0) {
